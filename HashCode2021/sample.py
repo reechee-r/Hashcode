@@ -26,7 +26,7 @@ def titleInformation(x):
     print('file number: ', x, '\n')
     print('file name: ', files[x-1], '\n')
     numbers = processFirstLine(getFirstLine(x))
-    print('There are ', numbers[1], ' two man team(s): this gives a total of :', int(numbers[1])*2, 'people')
+    print('There are ', numbers[1], ' two man team(s)1: this gives a total of :', int(numbers[1])*2, 'people')
     print('There are ', numbers[2], ' three man team(s): this gives a total of :', int(numbers[2])*3, 'people')
     print('There are ', numbers[3], ' four man team(s): this gives a total of :', int(numbers[3])*4, 'people')
     print(20*'-','\n\n',)
